@@ -33,8 +33,10 @@ from .mmflood import MMFloodDataModule
 from .naip import NAIPChesapeakeDataModule
 from .nasa_marine_debris import NASAMarineDebrisDataModule
 from .oscd import OSCDDataModule
+from .patternnet import PatternNetDataModule
 from .potsdam import Potsdam2DDataModule
 from .quakeset import QuakeSetDataModule
+from .reforestree import ReforesTreeDataModule
 from .resisc45 import RESISC45DataModule
 from .seco import SeasonalContrastS2DataModule
 from .sen12ms import SEN12MSDataModule
@@ -48,6 +50,7 @@ from .southafricacroptype import SouthAfricaCropTypeDataModule
 from .spacenet import SpaceNet1DataModule, SpaceNet6DataModule, SpaceNetBaseDataModule
 from .ssl4eo import SSL4EOLDataModule, SSL4EOS12DataModule
 from .ssl4eo_benchmark import SSL4EOLBenchmarkDataModule
+from .substation import SubstationDataModule
 from .sustainbench_crop_yield import SustainBenchCropYieldDataModule
 from .treesatai import TreeSatAIDataModule
 from .ucmerced import UCMercedDataModule
@@ -94,9 +97,11 @@ __all__ = (
     'NASAMarineDebrisDataModule',
     'NonGeoDataModule',
     'OSCDDataModule',
+    'PatternNetDataModule',
     'Potsdam2DDataModule',
     'QuakeSetDataModule',
     'RESISC45DataModule',
+    'ReforesTreeDataModule',
     'SEN12MSDataModule',
     'SKIPPDDataModule',
     'SSL4EOLBenchmarkDataModule',
@@ -112,6 +117,7 @@ __all__ = (
     'SpaceNet1DataModule',
     'SpaceNet6DataModule',
     'SpaceNetBaseDataModule',
+    'SubstationDataModule',
     'SustainBenchCropYieldDataModule',
     'TreeSatAIDataModule',
     'TropicalCycloneDataModule',

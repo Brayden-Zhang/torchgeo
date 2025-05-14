@@ -17,6 +17,13 @@ Clay-MAE
 .. autofunction:: clay_mae_base
 .. autofunction:: clay_mae_large
 
+Copernicus-FM
+^^^^^^^^^^^^^
+
+.. autoclass:: CopernicusFM
+.. autofunction:: copernicusfm_base
+.. autoclass:: CopernicusFM_Base_Weights
+
 CROMA
 ^^^^^
 
@@ -33,7 +40,7 @@ DOFA
 .. autofunction:: dofa_small_patch16_224
 .. autofunction:: dofa_base_patch16_224
 .. autofunction:: dofa_large_patch16_224
-.. autofunction:: dofa_huge_patch16_224
+.. autofunction:: dofa_huge_patch14_224
 .. autoclass:: DOFABase16_Weights
 .. autoclass:: DOFALarge16_Weights
 
@@ -82,11 +89,35 @@ Swin Transformer
 .. autoclass:: Swin_V2_T_Weights
 .. autoclass:: Swin_V2_B_Weights
 
+Panopticon
+^^^^^^^^^^
+
+.. autoclass:: Panopticon
+.. autofunction:: panopticon_vitb14
+.. autoclass:: Panopticon_Weights
+
+U-Net
+^^^^^
+
+.. autofunction:: unet
+.. autoclass:: Unet_Weights
+
+
 Vision Transformer
 ^^^^^^^^^^^^^^^^^^
 
 .. autofunction:: vit_small_patch16_224
+.. autofunction:: vit_base_patch16_224
+.. autofunction:: vit_large_patch16_224
+.. autofunction:: vit_huge_patch14_224
+.. autofunction:: vit_small_patch14_dinov2
+.. autofunction:: vit_base_patch14_dinov2
 .. autoclass:: ViTSmall16_Weights
+.. autoclass:: ViTBase16_Weights
+.. autoclass:: ViTLarge16_Weights
+.. autoclass:: ViTHuge14_Weights
+.. autoclass:: ViTSmall14_DINOv2_Weights
+.. autoclass:: ViTBase14_DINOv2_Weights
 
 Utility Functions
 ^^^^^^^^^^^^^^^^^
