@@ -10,6 +10,13 @@ Change Star
 .. autoclass:: ChangeStarFarSeg
 .. autoclass:: ChangeMixin
 
+Clay-MAE
+^^^^^^^^
+
+.. autoclass:: ClayMAE
+.. autofunction:: clay_mae_base
+.. autofunction:: clay_mae_large
+
 CROMA
 ^^^^^
 

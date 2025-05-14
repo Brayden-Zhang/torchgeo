@@ -5,6 +5,13 @@
 
 from .api import get_model, get_model_weights, get_weight, list_models
 from .changestar import ChangeMixin, ChangeStar, ChangeStarFarSeg
+from .clay import (
+    ClayMAE,
+    ClayMAEBase_Weights,
+    clay_mae_base,
+    clay_mae_large,
+)
+
 from .croma import CROMA, CROMABase_Weights, CROMALarge_Weights, croma_base, croma_large
 from .dofa import (
     DOFA,
@@ -32,6 +39,8 @@ from .swin import Swin_V2_B_Weights, Swin_V2_T_Weights, swin_v2_b, swin_v2_t
 from .vit import ViTSmall16_Weights, vit_small_patch16_224
 
 __all__ = (
+    'ClayMAE',
+    'ClayMAEBase_Weights',
     'CROMA',
     'DOFA',
     'FCN',
@@ -54,6 +63,8 @@ __all__ = (
     'Swin_V2_B_Weights',
     'Swin_V2_T_Weights',
     'ViTSmall16_Weights',
+    'clay_mae_base',
+    'clay_mae_large',
     'croma_base',
     'croma_large',
     'dofa_base_patch16_224',
